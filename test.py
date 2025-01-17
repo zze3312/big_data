@@ -107,7 +107,7 @@ def set_user_num():
         check_yn = False
         input_user_num = input('세자리 숫자를 입력해주세요 (띄어쓰기로 구분 / 게임포기 : q) : ')
 
-        if (input_user_num.lower() == 'q'):
+        if input_user_num.lower() == 'q':
             break
 
         user_num = input_user_num.split(' ')
